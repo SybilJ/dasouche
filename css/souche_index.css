@@ -1,0 +1,89 @@
+.box{ 	
+	position: relative; width: 100%; height: 464px;
+	}
+.box div{ 
+	top:0; right:0; bottom:0; left:0;  position: absolute;
+	font-size: 40px; text-align: center; 
+	background-repeat:no-repeat; background-size:100%;
+	opacity: 0; transition:opacity 1s; cursor:pointer;
+}
+.box div.transit{
+	opacity: 1; transition:opacity 1s;
+}
+.box .left{ 
+	width: 26px; height: 47px; position:absolute; 
+	z-index:10; opacity:0; cursor:pointer;
+	left:70px; top:208px; 
+	background:url(../images/icon.png) no-repeat; background-position:0 -36px;
+}
+.box .right{ 
+	width: 26px; height: 47px; position:absolute; 
+	z-index:10; opacity:0; cursor:pointer;
+	left:1780px; top:208px; 
+	background:url(../images/icon.png) no-repeat; background-position:-25px -36px;
+}
+.box:hover .left{opacity:0.5;}
+.box:hover .right{opacity:0.5;}
+.box .left:hover{opacity:1;}
+.box .right:hover{opacity:1;}
+.bannerHref{position:absolute; top:0; right:0; bottom:0; left:0;}
+
+.selectBlock{width:100%; border-bottom:1px solid #d9d9d9;}
+.selectNav{width:1180px; margin:0 auto; padding: 35px 26px; }
+.wrapper{float:left; border:2px solid #fff; padding-left:26px;}
+.brand_wr{width:400px;  padding-right:16px; padding-bottom:3px;}
+.type_wr{width:396px; padding-right:16px; padding-bottom:3px;}
+.brand_wr:hover, .type_wr:hover{border:2px solid #ff571a; }
+.price_wr{width:262px; }
+.wrapper h3{font-weight:bold; font-size:16px;line-height:40px;
+	color:#000; float:left;}
+.wrapper .arrowMore{width:9px; height:5px; float:right; margin-top:18px;
+	background:url(../images/index_sprite_v2.png) no-repeat; background-position:0 -130px;}
+.wrapper:hover .arrowMore{background:url(../images/index_sprite_v2.png) no-repeat; 
+	 background-position:0 -135px;}
+.brand_wr a{display:block; float:left; width:48px; height:30px;
+	line-height:30px; }
+.typeSelect{float:left;cursor:pointer;}
+.typeSelect:hover span{color:#ff571a;}
+.typeSelect .model{width:37px; height:17px; 
+	background:url(../images/Type.png) no-repeat; background-position:7px 3px;
+	padding:4px; padding-bottom:6px;}
+.type_wr .selectPack .typeSelect:hover .model{background:url(../images/Type2.png) no-repeat; 
+	background-position:7px 3px;}
+.typeSelect .brand_logo{ width:39px; height:17px; padding:0px 0; margin-bottom:10px;
+	background:url(../images/brand_15.png) no-repeat; background-position:7px 0px; 
+	background-size:72%;}
+.typeSelect span{display:block; width:56px; height:30px; font-size:12px;
+	line-height:30px; text-align:center;}
+.brand_wr .selectPack .typeSelect span{width:48px;}
+.price_wr a{font-size:12px; line-height:22px; display:block; float:left;
+	width:51px;padding-left:14px; margin-bottom:8px;}
+.price_wr a:hover{color:#ff571a;}
+
+.car_life, .manage_wise{width:100%;}
+.CLwrapper, .MWwrapper{padding-top:80px;}
+.CLwrapper h1, .MWwrapper h1{text-align:center; line-height:50px; font-size:32px; color:#333;}
+.CLwrapper p, .MWwrapper p{text-align:center; font-size:16px; line-height:40px; color:#999;}
+.cl_container{width:1180px; margin:0 auto; overflow:hidden; padding:68px 0 30px 0;
+	 }
+.cl_container a{display:block; padding-left:285px; height:240px;
+	background-repeat:no-repeat; float:left; margin-bottom:40px;}
+.cl_container h2{line-height:30px;padding-top:30px;font-size:20px; text-align:center;}
+.cl_container p{font-size:14px; line-height:30px; color:#999; display:block;
+	width:285px; padding-bottom:38px; text-align:center;}
+.cl_container a img{width:160px; height:105px; display:block; margin:0 auto; }
+
+.cl_container a:hover{box-shadow:0 4px 8px 0 rgb(182, 182, 182);}
+.cl_container a:hover h2{color:#ff571a;}
+.cl_container a:hover img{transition:margin-left .25s;}
+
+.ws_container{width:1180px; margin:0 auto; overflow:hidden; padding:68px 0 77px 0;}
+.appWrapper{width:328px; height:180px; float:left; border-left:1px solid #E6E6E6; color:#333333; padding:0 32px; position:relative;}
+.appWrapper .titleBox{overflow:hidden; margin-bottom:13px;}
+.appWrapper .titleBox img{width:64px; height:64px; display:block; float:left; }
+.appWrapper .titleBox .rightInfo{float:left; padding-left:22px;}
+.appWrapper .titleBox h3{line-height:34px; font-size:20px; }
+.appWrapper .titleBox span{line-height:24px; font-size:14px; }
+.appWrapper p{font-size:12px; line-height:16px; color:#999999; text-align:left;}
+.appWrapper a{color:#ff571a; position:absolute; bottom:13px;}
+

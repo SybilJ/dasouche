@@ -1,0 +1,80 @@
+
+.mainBody{width:1278px;margin:0 auto;}
+
+.mbLeft{width:242px;float:left;}
+.findCars{padding:10px 16px 10px 16px;border:1px solid #DCDCDC;color:#ff571a;}
+.rowTitle{ padding-top:28px; padding-bottom:18px; }
+.titleLeft{float:left;line-height:34px;}
+.more{float:right;line-height:34px;font-size:12px;}
+.brand{border:1px solid #ededed;padding:13px;}
+.brand a{margin-right:30px;line-height:26px;font-size:12px;}
+.brand a:nth-child(5){margin-right:20px;}
+.brand a:nth-child(9){margin-right:15px;}
+.brand a:nth-child(13){margin-right:15px;}
+.brand a:nth-child(17){margin-right:4px;}
+.brand a:nth-child(21){margin-right:0;margin-left:-12px;}
+.brand a:hover{color:#ff571a;}
+.grey_line{width:100%;height:15px;border-top:1px solid #d9d9d9;margin-top:34px;}
+.priceRange{margin-top:17px;}
+.priceRange li{float:left;width:24px;height:8px;background:#d9d9d9;margin:0 1px;cursor:pointer;}
+.priceRange li:hover{background: #ff571a;}
+.customed{display:block;float:left;font-size:10px;width:25px;}
+.customed:nth-child(15){width:12px;}
+.customed:nth-child(19){width:0px;}
+
+.typeList li{float:left;width:70px;height:45px;background:url(../images/Type.png) no-repeat 20px 0;margin:5px 0;}
+.typeList li span{font-size:12px;padding-top:23px;padding-left:22px;display:block;}
+.typeList li:hover{background:url(../images/Type2.png) no-repeat 20px 0;}
+.typeList li span:hover{color:#ff571a;cursor:pointer;}
+.zhi{padding:0 3px;float:left;line-height:30px}
+
+.optionBox{
+	width:195px; height:30px; line-height:30px; 
+	border:1px solid #e5e5e5; font-size:12px;
+	padding-left:10px; cursor:pointer; position:relative;
+}
+.optionBox:hover .plhr{	color:#ff571a;	}
+.plhr{	color:#aaaaaa; font-size:12px; }
+.opBox{	width:78px;float:left;	}
+.arrowDown{
+	float:right; width:10px; height:7px; 
+	background:url(../images/head-sprite.png) no-repeat;
+	margin-top:13px; margin-right:7px;
+}
+.ULoptions{display: block;position:absolute; border:1px solid #e5e5e5;
+	background:#fff; margin-top:-3px; margin-left:-11px;
+	z-index:1; }
+.ULhidden{
+	display:none;
+}
+.ULoptions li{
+	font-size:12px; width:185px; height:25px; line-height:25px;
+	padding-left:20px; cursor:pointer;
+}
+.ULoptions li:hover{ background:#ff571a; color:#fff;	}
+.regTime{
+	font-size:12px; width:88px; height:36px; line-height:30px;
+	padding-left:5px; display:none; 
+}
+.row{ z-index:1; }
+
+
+.mbRight{float:right;width:1013px;}
+.topSelect{border:1px solid #E6E6E6;margin-bottom:20px;}
+.sales1,.sales2{float:left;padding:12px;border-right:1px solid #E6E6E6;cursor:pointer;}
+.rankList{float:right;}
+.rankList li{float:left;}
+
+.aboutCars{width:240px;float:left;margin-right:17px;margin-bottom:20px;}
+.aboutCars:nth-child(4n+1){margin-right:0;}
+.carImg{width:240px;height:160px;}
+.details{height:150px;padding:10px 15px;width:208px;border:1px solid #E6E6E6;
+		position:relative;margin-top: -5px;}
+.details .carLink{line-height:20px;position:absolute;}
+.details .carLink:hover{color:#ff571a;}
+.details .price{color:#ff571a; font-weight:bold;font-size:16px;line-height:36px;
+	padding-top:43px;}
+.details .carInfo{color:#999;font-size:12px;}
+.greyLine{width:208px;border-bottom:1px solid #E6E6E6;height:25px;margin-bottom:10px;}
+.approveTag{background:#60b25e; color:#fff;padding:0 3px;}
+
